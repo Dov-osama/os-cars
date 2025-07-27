@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os-Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><i>OS-CARS</i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://www.bing.com/ck/a?!&&p=bb3a1c57c077d93d97ca51c96bc70df640cad58abe4b7d51e848de1cf793dac3JmltdHM9MTc1MzQ4ODAwMA&ptn=3&ver=2&hsh=4&fclid=2c2ac318-6eac-6443-0d85-d65d6f2965e0&psq=%d8%b5%d9%81%d8%ad%d8%a9+%d8%ae%d8%a7%d8%b5%d9%87+%d8%a8%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa+%d8%a7%d9%84%d9%85%d8%b1%d8%b3%d9%8a%d8%af%d8%b3&u=a1aHR0cHM6Ly9hcmF3aGVlbHMuY29tL2Nhci1icmFuZC9tZXJjZWRlcy8&ntb=1"><i>Mercedes</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.bing.com/ck/a?!&&p=5aa084da1b428b9d604649eff22af0c73e1213b0154c7bd0f31bd65fb49945ddJmltdHM9MTc1MzQ4ODAwMA&ptn=3&ver=2&hsh=4&fclid=2c2ac318-6eac-6443-0d85-d65d6f2965e0&psq=%d8%b5%d9%81%d8%ad%d8%a9+%d8%ae%d8%a7%d8%b5%d9%87+%d8%a8%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa+bmw&u=a1aHR0cHM6Ly93d3cuYm13LW1lLmNvbS9lbi9pbmRleC5odG1s&ntb=1"><i>BMW</i></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link active" aria-current="page" href="https://www.bing.com/ck/a?!&&p=e9372ba99f19be662e69b18190accd608868976c4c3b2341d829f34c6b38b9fbJmltdHM9MTc1MzQ4ODAwMA&ptn=3&ver=2&hsh=4&fclid=2c2ac318-6eac-6443-0d85-d65d6f2965e0&psq=%d8%b5%d9%81%d8%ad%d9%87+%d8%ae%d8%a7%d8%b5%d9%87+%d8%a8%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa+%d8%a3%d9%88%d8%af%d9%8a&u=a1aHR0cHM6Ly93d3cuYXVkaS1qb3JkYW4uY29tL2VuLw&ntb=1" ><i> Audi</i></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link active" aria-current="page" href="https://www.bing.com/ck/a?!&&p=f5f7c4ef6e20170ac15ba2d65354a726df39b88c974428dceb2ff74c2bc72deeJmltdHM9MTc1MzQ4ODAwMA&ptn=3&ver=2&hsh=4&fclid=2c2ac318-6eac-6443-0d85-d65d6f2965e0&psq=%d8%b5%d9%81%d8%ad%d9%87+%d8%ae%d8%a7%d8%b5%d9%87+%d8%a8%d8%b3%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa+%d8%b1%d9%8a%d9%86%d8%ac+%d8%b1%d9%88%d9%81%d8%b1&u=a1aHR0cHM6Ly93d3cubGFuZHJvdmVyLW9tYW4uY29tL2FyL3JhbmdlLXJvdmVyLzI1bXkvcmFuZ2Utcm92ZXIvbW9kZWxzLWFuZC1zcGVjaWZpY2F0aW9ucw&ntb=1" ><i>Range Rover</i></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+    </nav>
+    <hr>
+
+        <h2><i>Mercedes Section</i></h2>
+ <div class="row  mt-5">
+    
+    <div class="col">
+      <div class="card" style="width: 18rem; ;">
+        <img src="Mercedes-Benz-G-63-AMG-2025.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+    <h5 class="card-title">Mercedes_Benz_G_63_AMG_2025</h5>
+    <p class="card-text"><span>- Engine: Handcrafted 4.0L V8 biturbo with hybrid assist</span>
+                       <span>- Horsepower: 577 hp</span>
+                        <span>- Torque: 627 lb-ft</span>
+                       <span> - Acceleration: 0–60 mph in 4.2 seconds</span>
+                       <span>- Drivetrain: AMG Performance 4MATIC all-wheel drive with 2-speed transfer case</span>
+                        <span>- Transmission: AMG SPEEDSHIFT TCT 9-speed automatic</span>
+
+    </p>
+    <a href="https://arawheels.com/car/mercedes-benz-g-63-amg-2025/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;" >
+  <img src="img23.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mercedes_Benz_E_Class_2025</h5>
+    <p class="card-text">
+      <span>- 2.0L turbocharged inline-4</span>
+      <span>- 201 hp and 320 Nm torque</span>
+      <span>- 9-speed automatic transmission</span>
+      <span>- Rear-wheel drive</span>
+      <span>- 0–100 km/h in 7.5 seconds</span>
+      <span>- Fuel economy: 6.4 L/100 km (~15.6 km/L)</span>
+      <span>- Leather seats and steering wheel </span>
+      <span>- Dual-zone automatic climate control</span>
+      <span>- 12.3" digital instrument cluster</span>
+
+    </p>
+    <a href="https://arawheels.com/car/mercedes-benz-e-class-2025/" class="btn btn-primary">For more information</a>
+  </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <img src="img24.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mercedes_Benz_C_Class_2024 </h5>
+    <p class="card-text">
+
+       <span>- 1.5L turbocharged inline-4 with 48V mild hybrid system</span>
+      <span>- 201 hp + 20 hp boost from electric motor</span>
+      <span>- 300 Nm torque</span>
+      <span>- 9-speed 9G-Tronic automatic transmission</span>
+      <span>- 0–100 km/h in 7.3 seconds</span>
+      <span>- Top speed: 246 km/h</span>
+      <span> - Fuel economy: 6.2–6.6 L/100 km (~15–16 km/L)</span>
+      <span></span>
+
+    </p>
+    <a href="https://arawheels.com/car/mercedes-benz-c-class-2024/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+    </div>
+    
+    <div class="col">
+         <div class="card" style="width: 18rem; ">
+        <img src="img25.webp" class="card-img-top" alt="">
+        <div class="card-body">
+    <h5 class="card-title">Mercedes_Benz_CLA_45_AMG_2025</h5>
+    <p class="card-text">
+       <span>- Engine: Handcrafted 2.0L inline-4 turbo</span>
+       <span>- Horsepower: 416 hp @ 6,750 rpm</span>
+       <span>- Torque: 369 lb-ft</span>
+       <span>- Transmission: AMG SPEEDSHIFT® DCT 8-speed dual-clutch</span>
+       <span>- Drivetrain: AMG Performance 4MATIC+ all-wheel drive</span>
+        <span> - Acceleration: 0–100 km/h in just 4.0 seconds</span>
+      <span>- Fuel Economy: 20 mpg city/28</span>
+
+
+
+    </p>
+    <a href="https://arawheels.com/car/mercedes-benz-cla-45-amg-2025/" class="btn btn-primary">For more information</a>
+  </div>
+
+    </div>
+
+  </div>
+</div>
+<hr>
+
+ <h2 class="mt-5">BMW section</h2>
+
+ <div class="container text-center mt-5">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem; height: 36rem;">
+      <img src="img31.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">BMW_X7_2025 </h5>
+        <p class="card-text">
+          <span>- xDrive40i: Powered by a 3.0-liter inline 6-cylinder turbocharged engine with a mild hybrid system. It delivers 375 horsepower and 398 lb-ft of torque. Acceleration from 0 to 60 mph takes about 5.6 seconds.</span>
+          <span>- M60i: Equipped with a 4.4-liter twin-turbocharged V8 engine and mild hybrid tech. It produces 523 horsepower and 553 lb-ft of torque. It can go from 0 to 60 mph in just 4.5 seconds.</span>
+
+        </p>
+        <a href="https://arawheels.com/car/bmw-x7-2025/" class="btn btn-primary">For more information</a>
+      </div>
+  </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem; height: 36rem;">
+      <img src="img32.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">BMW_4_Series_2025</h5>
+    <p class="card-text">
+      <span>- 430i: 2.0L turbocharged 4-cylinder, 255 hp, 0–100 km/h in ~5.8 sec</span>
+      <span>- M440i: 3.0L turbocharged inline-6 with 48V mild hybrid, 386 hp, 0–100 km/h in ~4.5 sec</span>
+      <span>- All models feature 8-speed automatic transmission and optional xDrive AWD</span>
+      <span>- Redesigned LED headlights and Laserlight taillights</span>
+      <span>- New paint options like Cape York Green</span>
+    </p>
+    <a href="https://arawheels.com/car/bmw-4-series-2025/" class="btn btn-primary">For more information</a>
+  </div>
+  </div>
+
+
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem; height: 36rem;">
+      <img src="img33.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">BMW_7_Series_2025</h5>
+    <p class="card-text">
+      <span>-740i: 3.0L inline-6 turbo + 48V mild hybrid  375 hp  0–100 km/h  ~5.2 sec </span>
+      <span>- 750e xDrive:  Plug-in hybrid (3.0L I6 + electric)  483 hp  ~4.6 sec  </span>
+      <span>- 760i xDrive: 4.4L twin-turbo V8 engine plus 48V mild hybrid. Produces 536 hp. 0–100 km/h in roughly 4.1 seconds.</span>
+      <span>- i7 xDrive60: All-electric with dual motors. Power: 536 hp. Acceleration: ~4.5 seconds.</span>
+      <span>- Wheel options up to 21 inches.</span>
+    </p>
+    <a href="https://arawheels.com/car/bmw-7-series-2025/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem; height: 36rem;">
+      <img src="img34.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">BMW_8_Series_Gran_Coupe_2025</h5>
+    <p class="card-text">
+
+      <span>- 840i: 3.0L turbocharged inline-6 engine. Produces 335 hp and 368 lb-ft of torque. Accelerates from 0–100 km/h in approximately 5.2 seconds. Rear-wheel drive.</span>
+      <span>- M850i xDrive: 4.4L twin-turbo V8 engine. Delivers 523 hp and 750 Nm of torque. 0–100 km/h in about 3.9 seconds. All-wheel drive (xDrive).</span>
+      <span>- Transmission: All models feature an 8-speed automatic transmission.</span>
+
+    </p>
+    <a href="https://arawheels.com/car/bmw-8-series-gran-coupe-2025/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+    </div>
+
+  </div>
+</div>
+  <hr/>
+  <h2 class="mt-5">Audi section</h2>
+
+    <div class="container text-center mt-5">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+      <img src="img41.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">Audi_S_Q8_2025</h5>
+    <p class="card-text">
+      <span>- Engine Type: 4.0-liter twin-turbocharged V8 with mild hybrid system.</span>
+      <span>- Power Output: 500 horsepower and 770 Nm of torque.</span>
+      <span>- Acceleration: 0–100 km/h in approximately 4.1 seconds.</span>
+      <span>- Transmission: 8-speed automatic with quattro all-wheel drive.</span>
+      <span>- Suspension: Adaptive air suspension with optional active roll stabilization.</span>
+    </p>
+    <a href="https://arawheels.com/car/audi-s-q8-2025/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+      <img src="img-42.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">Audi_A5_2025</h5>
+    <p class="card-text">
+      <span>- Engine: 2.0L turbocharged 4-cylinder with 48V mild hybrid system</span>
+      <span>- Horsepower: 268 hp</span>
+      <span>- Transmission: 7-speed dual-clutch automatic</span>
+      <span>- Drivetrain: Standard quattro all-wheel drive</span>
+      <span>- Acceleration: 0–100 km/h in ~5.6 seconds</span>
+      <span>- Fuel Economy: ~22 mpg city / 31 mpg highway</span>
+
+
+    </p>
+    <a href="https://arawheels.com/car/audi-a5-2025/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+    
+      <div class="card" style="width: 18rem;">
+        <img src="img43.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+    <h5 class="card-title">Audi_Q7_2025 </h5>
+    <p class="card-text">
+      <span>- Q7 45 TFSI: 2.0L turbocharged 4-cylinder with mild hybrid system</span>
+      <span>- Power: 261 hp  Torque: 370 Nm</span>
+      <span>- 0–100 km/h: ~7.1 seconds</span>
+      <span>- Q7 55 TFSI: 3.0L turbocharged V6 with mild hybrid system</span>
+      <span>- Power: 335 hp  Torque: 500 Nm- 0–100 km/h: ~5.6 seconds</span>
+      <span>- Transmission: 8-speed Tiptronic automatic</span>
+      <span>- Drivetrain: Standard quattro all-wheel drive</span>
+
+
+    </p>
+    <a href="https://arawheels.com/car/audi-q7-2025/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+
+</div>
+  <div class="col">
+      <div class="card" style="width: 18rem;">
+      <img src="img44.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">Audi_A5_Coupe_2024</h5>
+    <p class="card-text">
+      <span>- 2.0L turbocharged engine with mild hybrid system</span>
+      <span>- 261 horsepower  0–100 km/h in ~5.4 seconds</span>
+      <span>- Standard quattro all-wheel drive</span>
+      <span>- Premium Okapi Brown leather upholstery</span>
+      <span>- Audi Virtual Cockpit with digital instrument cluster</span>
+      <span>- Ambient lighting and high-quality materials throughout</span>
+      <span>- colors like District Green Metallic</span>
+
+    </p>
+    <a href="https://arawheels.com/car-brand/audi/audi-a5-coupe/" class="btn btn-primary">For more information</a>
+  </div>
+  </div>
+    </div>
+  </div>
+
+  <hr>
+  <h2 class="mt-5"> land Rover section</h2>
+
+
+
+  <div class="container text-center mt-5">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+      <img src="img55.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">Land_Rover_Defender_2025</h5>
+    <p class="card-text">
+      <span>- Defender 90: Compact 2-door with sporty handling</span>
+      <span>- Defender 110: Versatile 4-door with two-row seating</span>
+      <span>- Defender 130: Extended 3-row SUV for families or adventurers</span>
+      <span>- New Sedona Edition: Exclusive deep red color inspired by Arizona’s sandstone</span>
+      <span>- P300e Plug-in Hybrid: Adds electric efficiency to off-road prowess</span>
+    </p>
+    <a href="https://arawheels.com/car/land-rover-defender-2025/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+      <img src="img52.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">Land_Rover_Range_Rover_2025</h5>
+    <p class="card-text">
+      <span>- P400 SE: 3.0L mild hybrid I6 with 395 hp</span>
+      <span>- P550e Plug-in Hybrid: 542 hp and up to 53 miles of electric range</span>
+      <span>- P530 V8: 4.4L twin-turbo with 523 hp</span>
+      <span>- P615 SV: High-performance V8 with 606 hp, 0–60 mph in 4.3 seconds</span>
+      <span>- Active Noise Cancellation: Creates quiet zones via headrest speakers</span>
+    </p>
+    <a href="https://arawheels.com/car-brand/land-rover/land-rover-range-rover/" class="btn btn-primary">For more information</a>
+  
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+      <img src="img53.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">Land_Rover_Range_Rover_Sport_SVR_2022</h5>
+    <p class="card-text">
+      <span>- Engine: 5.0L Supercharged V8</span>
+      <span>- Output: 575 hp and 700 Nm of torque</span>
+      <span>- 0–100 km/h: Just 4.5 seconds</span>
+      <span>- Top Speed: 283 km/h</span>
+      <span>- Drive: All-wheel drive with 8-speed automatic transmission</span>
+      <span>- Carbon Fiber Hood & Trim: Lightweight and aggressive styling</span>
+      <span>- Quad Exhaust Pipes: Signature SVR roar</span>
+    </p>
+    <a href="https://arawheels.com/car-brand/land-rover/land-rover-range-rover-sport-svr/" class="btn btn-primary">For more information</a>
+  </div>
+</div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+      <img src="img54.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+    <h5 class="card-title">Land_Rover_Discovery_Sport_2025</h5>
+    <p class="card-text">
+
+      <span>- Engine: 2.0L turbocharged inline-4 (P250)</span>
+      <span>- Horsepower: 246 hp</span>
+      <span>- Torque: 269 lb-ft</span>
+      <span>- Transmission: 9-speed automatic</span>
+      <span>- Drivetrain: Standard all-wheel drive</span>
+      <span>- Towing Capacity: Up to 4,409 lbs</span>
+      <span>- Fuel Economy: ~20 mpg combined</span>
+      <span>- Seating: 5 standard, optional 7 with third-row</span>
+    </p>
+    <a href="https://arawheels.com/car/land-rover-discovery-sport-2025/" class="btn btn-primary">For more information</a>
+  </div>
+  </div>
+
+    </div>
+
+  </div>
+  <div style="height: 50px;"></div>
+
+</div>
+
+
+  </div>
+</div>
+
+
+
+</body>
+</html>
