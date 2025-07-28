@@ -5,46 +5,63 @@ body{
     overflow-x: hidden;
 }
 .navbar{
-background-color: aliceblue;
+background-color: rgb(255, 254, 254);
+color: #080b35;
 border-radius: 20px;
+font-size: 20px;
+font-weight: 400;
+transition: 0.3s ease;
+word-spacing: normal;
+     
+}
+.navbar:hover,
+.navbar.active{
+    color: #ffffff;
+    border-bottom: 8px solid rgb(0, 0, 0); 
 }
 
 .row{
     color: rgb(22, 6, 62);
-    background-color: beige;
+    background-color: rgb(8, 3, 30);
     border-radius: 20px;
     width: fit-content;
 }
 h2{
-    background-color: rgb(35, 3, 3);
+    background-color:#0000;
    width: fit-content;
    min-height: 40px;
    color: beige;
-   font-size: 45px;
+   font-size: 35px;
    border: ridge 5px beige;
    padding: 2px;
    border-radius: 30px ;
    text-align: left;
    direction: ltr;
-   text-transform: uppercase;
+   text-transform: capitalize;
    word-spacing: 2px;
-   box-shadow: 0px 10px 10px rgb(100 100 100 / 100%);
    cursor: pointer;
 
 }
 h2:hover{
-    box-shadow: 0px 10px 10px rgb(100 100 100 / 100%)
+    box-shadow: 0px 10px 10px rgb(250, 234, 234)
+    
 }
 .btn{
     background-color: beige;
     border-color: beige;
     color: rgb(7, 12, 105);
     border-radius: 20px;
-     box-shadow: 0px 10px 10px rgb(100 100 100 / 100%) ;
-
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+flex-grow: 1;
+flex-basis: 100px;
 }
 .btn:hover{
-     box-shadow: 0px 10px 10px rgb(100 100 100 / 100%) ;
+     box-shadow: 0px 10px 10px rgb(255, 255, 255) ;
+     background-color: hsl(211, 12%, 65%);
+     border-color: hsl(211, 12%, 65%);
 }
 
 .card{
@@ -52,7 +69,8 @@ h2:hover{
     color: aliceblue;
     border-radius: 20px;
      height: 35rem;
-      box-shadow: 0px 10px 10px rgb(100 100 100 / 100%) ;
+      box-shadow: 0px 10px 10px rgb(100 100 100 / 100%) ; 
+
 }
 
 
@@ -61,29 +79,13 @@ h2:hover{
 }
 
 span{
-    display:block
+    display:block;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B")
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    font-family: 'Poppins',sans-serif;
+.navbar-toggler-icon{
+    background-color: #080b35;
+    border-radius: 50%;
 }
 
-html{
-    font-size: 70.5%;
-}
 
-/* الحاوية الرئيسية 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
-
-/*
+  
