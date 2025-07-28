@@ -89,4 +89,26 @@ span{
 }
 
 
-  
+  /* للشاشات الصغيرة مثل الجوالات */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* للشاشات المتوسطة مثل التابلت */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+/* للشاشات الكبيرة مثل اللابتوب والديسكتوب */
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+    padding: 30px;
+  }
+}
